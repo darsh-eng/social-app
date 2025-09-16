@@ -32,7 +32,7 @@ export default function ScrollToTopButton() {
             aria-label="Scroll to top"
             className="fixed bottom-6 right-6 z-[9998] cursor-pointer group"
         >
-            <div className="rounded-full p-3 bg-slate-800/90 border border-slate-700 shadow-xl backdrop-blur-sm transition-all group-hover:bg-slate-700 group-hover:shadow-2xl">
+            <div className="rounded-full p-3 bg-slate-800/90 border border-slate-700 shadow-xl backdrop-blur-sm transition-all group-hover:bg-purple-700 group-hover:shadow-2xl">
                 <i className="fa-solid fa-arrow-up text-white"></i>
             </div>
         </button>

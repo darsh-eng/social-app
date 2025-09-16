@@ -60,7 +60,7 @@ export const CreateComment = ({ postId, trigger }) => {
   const defaultTrigger = (
     <button
       onClick={() => setOpen(true)}
-      className="flex items-center cursor-pointer hover:bg-red-500/10  py-2 rounded-lg bg-slate-800/80 hover:text-blue-400 text-gray-400  transition"
+      className="flex items-center cursor-pointer  py-2 rounded-lg hover:bg-slate-800/80 hover:text-blue-400 text-gray-400  transition"
       type="button"
     >
       <i className="fa-regular fa-comment"></i>

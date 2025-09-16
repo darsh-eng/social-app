@@ -101,7 +101,7 @@ export default function CreatePost() {
               {/* Additional Options */}
               <button
                 type="button"
-                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 
+                className="flex items-center gap-2 cursor-pointer px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 
                   border border-slate-600 hover:border-slate-500 transition-all duration-200 group"
               >
                 <i className="fa-solid fa-smile text-lg group-hover:text-yellow-400 transition-colors"></i>
@@ -114,7 +114,7 @@ export default function CreatePost() {
             {/* Submit Button */}
             <button
               type="submit"
-              className="px-6 py-2 cursor-pointer bg-gradient-to-r from-blue-500 to-indigo-700  
+              className="px-6 py-2 cursor-pointer bg-blue-600 hover:bg-purple-700 
                 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-200
                 flex items-center gap-2 group"
             >

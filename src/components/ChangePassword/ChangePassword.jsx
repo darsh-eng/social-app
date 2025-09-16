@@ -44,7 +44,7 @@ export default function ChangePassword() {
     <>
       <button
         onClick={toggleModal}
-        className="group flex items-center gap-3 text-white bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 
+        className="group flex items-center gap-3 text-white bg-blue-600 hover:bg-pink-600 
         focus:ring-4 focus:outline-none focus:ring-blue-400/50 font-semibold 
         rounded-2xl text-lg px-8 py-4 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 cursor-pointer"
         type="button"
